@@ -1,4 +1,0 @@
-com\alibaba\jstorm\tools\check\NodeCheckTopology.class
-com\alibaba\jstorm\tools\check\bolt\ReceiverBolt.class
-com\alibaba\jstorm\tools\check\spout\SenderSpout.class
-com\alibaba\jstorm\tools\check\HelloTuple.class
