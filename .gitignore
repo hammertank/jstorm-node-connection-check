@@ -1,1 +1,5 @@
 deploy.sh
+.settings
+target
+.classpath
+.project
