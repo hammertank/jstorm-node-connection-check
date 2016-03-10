@@ -6,9 +6,12 @@ import org.apache.commons.lang.builder.ToStringStyle;
 
 public class HelloTuple implements Serializable {
 	private static final long serialVersionUID = 1L;
-	private final String source;
-	private final String msgId;
-	private final Long emitTs;
+	private String source;
+	private String msgId;
+	private Long emitTs;
+
+	public HelloTuple() {
+	}
 
 	public HelloTuple(String source, String msgId, Long emitTs) {
 		this.source = source;
@@ -29,6 +32,7 @@ public class HelloTuple implements Serializable {
 	}
 
 	public String toString() {
-		return ToStringBuilder.reflectionToString(this, ToStringStyle.SHORT_PREFIX_STYLE);
+		return ToStringBuilder.reflectionToString(this,
+				ToStringStyle.SHORT_PREFIX_STYLE);
 	}
 }
